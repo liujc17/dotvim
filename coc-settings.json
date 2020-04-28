@@ -1,0 +1,20 @@
+{
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": [
+        "--line-length",
+        "79",
+        "--skip-string-normalization"
+    ],
+    "python.linting.pylintArgs": [
+        "--disable=E1101,C"
+    ],
+    "latex.build.executable": "latexmk",
+    "latex.build.args": [
+        "%f"
+    ],
+    "latex.forwardSearch.executable": "okular",
+    "latex.forwardSearch.args": [
+        "--unique",
+        "file:%p#src:%l%f"
+    ]
+}
