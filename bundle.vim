@@ -150,12 +150,13 @@ if isdirectory(expand("~/.vim/bundles/vim-markdown"))
     let g:vim_markdown_math = 1
     let g:vim_markdown_toc_autofit = 1
     let g:vim_markdown_strikethrough = 1
-    let g:vim_markdown_no_extensions_in_markdown = 1
+    let g:vim_markdown_no_extensions_in_markdown = 0
     let g:vim_markdown_edit_url_in = 'vsplit'
 endif
 " ======================================
 "           markdown-preview
 " ======================================
 if isdirectory(expand("~/.vim/bundles/markdown-preview.nvim"))
-    let g:mkdp_auto_start = 1
+    let g:mkdp_auto_start = 0
+    let g:mkdp_auto_close = 0
 endif
