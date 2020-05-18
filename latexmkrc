@@ -19,7 +19,8 @@ $bibtex_use = 2;
 # If 4, generate pdf document using the command specified by the $lualatex variable.
 # If 5, generate pdf document using the commands specified by the $xelatex and xdvipdfmx variables.
 $pdf_mode = 5;
-$preview_mode = 1;
+# Do not autorun previewer
+$preview_mode = 0;
 # pdf browser
 $pdf_previewer='start okular';
 
