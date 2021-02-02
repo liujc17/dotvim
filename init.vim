@@ -1,6 +1,6 @@
 " set color theme
-let g:theme_scheme='gruvbox'
-let g:theme_background='dark'
+let g:theme_scheme='one'
+let g:theme_background='light'
 
 " set leader key, not <space>
 let g:leader_key=','

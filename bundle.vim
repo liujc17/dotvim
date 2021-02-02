@@ -18,6 +18,8 @@ Plug 'plasticboy/vim-markdown'
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() } }
 
 Plug 'morhetz/gruvbox'
+Plug 'rakr/vim-one'
+Plug 'sonph/onehalf', { 'rtp': 'vim' }
 " Plug 'vim-airline/vim-airline-themes'
 
 call plug#end()
@@ -56,7 +58,7 @@ if isdirectory(expand("~/.vim/bundles/vim-airline"))
     let g:airline_symbols.branch = ''
     let g:airline_symbols.readonly = ''
     let g:airline_symbols.linenr = '☰'
-    let g:airline_symbols.maxlinenr = ' '
+    let g:airline_symbols.maxlinenr = ''
 endif
 " ======================================
 "             vim-easymotion
