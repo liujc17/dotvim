@@ -4,6 +4,19 @@ My personal Vim configuration
 
 ## Quick Start
 
+1. Download repo
+
+```bash
+$ git clone https://github.com/liujc17/dotvim .vim  # for vim
+$ git clone https://github.com/liujc17/dotvim .config/nvim  # for nvim
+```
+
+2. Install plugins
+
+In the command mode of vim/nvim, execute `:PlugInstall`, `:CocInstall coc-lists`.
+
+3. Install dependencies for specified [Languages](#Languages)
+
 ## General Keybindings
 
 ### Files, Buffers and Windows
@@ -72,6 +85,6 @@ My personal Vim configuration
 
 1. `CocInstall` command is very slow, seems to be stuck?
 
-```sh
+```bash
 npm config set registry https://registry.npm.taobao.org
 ```
